@@ -1,0 +1,142 @@
+.top-bar {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #750606;
+}
+
+.top-bar select {
+    padding: 10px;
+    font-size: 16px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+span.actions a.delete {
+    background-color: #f33232;
+    padding: 5px;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 2px;
+
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+}
+span.actions a.edit {
+    background-color: #10961a;
+    padding: 5px;
+    color: #fff;
+    border-radius: 3px;
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4); 
+}
+
+ span.infos {
+    background-color: #efefef;
+    padding: 5px;
+    border-radius: 3px;
+    -moz-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+}
+
+form#editFrm {
+    margin: 40px auto;
+    text-align: center;
+}
+input#btn-save {
+    width: 20%;
+    height: 37px;
+    background-color: #750606;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+table {
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+a,
+a:visited {
+    color: #1887e5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+
+}
+
+.back a {
+    color: brown !important;
+}
+
+ul {
+    list-style: none;
+    line-height: 22px;
+}
+
+li {
+    margin: 3px 0 0 0;
+}
+
+li:hover {
+    background-color: #f7f7f7 !important;
+
+}
+
+li.file,
+li.folder,
+li.png,
+li.gif,
+li.jpg,
+li.back {
+    padding-left: 24px;
+    color: #e6981c;
+    line-height: 30px !important;
+}
+
+li.file {
+    background: transparent url("../image/file.png") no-repeat left 3px;
+}
+
+li.folder {
+    color: #e6981c !important;
+    background: transparent url("../image/folder.png") no-repeat left 3px;
+}
+
+li.back {
+    background: transparent url("../image/back.png") no-repeat left 3px;
+}
+
+span.filename,
+.actions {
+    min-width: 500px;
+    display: inline-block;
+}
+
+.png,
+.jpg,
+.gif {
+    background: transparent url("../image/img.png") no-repeat left 3px !important;
+}
+
+.htm,
+.html {
+    background: transparent url("../image/html.png") no-repeat left 3px !important;
+}
+
+div.msg {
+    background-color: #ffd179;
+    padding: 7px;
+    margin: 10px;
+}
